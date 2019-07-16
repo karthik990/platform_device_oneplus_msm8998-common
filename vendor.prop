@@ -105,6 +105,9 @@ vendor.iop.enable_uxe=0
 
 # Media
 vendor.vidc.debug.level=1
+vendor.swvdec.log.level=1
+debug.stagefright.omx_default_rank.sw-audio=1
+debug.stagefright.omx_default_rank=0
 
 # QCOM
 ro.vendor.qti.va_aosp.support=1
