@@ -15,6 +15,10 @@ persist.bluetooth.a2dp_offload.cap=false
 ro.bluetooth.emb_wp_mode=false
 ro.bluetooth.wipower=false
 
+# Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+
 # Cabl
 ro.qualcomm.cabl=2
 vidc.enc.dcvs.extra-buff-count=2
