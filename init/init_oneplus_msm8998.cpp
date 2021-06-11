@@ -181,6 +181,9 @@ void init_alarm_boot_properties()
 
 void vendor_load_properties() {
     LOG(INFO) << "Loading vendor specific properties";
+    // fingerprint
+    property_override("ro.build.description", "redfin-user 11 RQ3A.210605.005 7349499 release-keys");
+    property_override_multi("ro.build.fingerprint", "ro.vendor.build.fingerprint","ro.bootimage.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
     init_target_properties();
     init_fingerprint_properties();
     init_alarm_boot_properties();
